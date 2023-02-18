@@ -8,10 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var shouldShowPrayingEmoji = true
+    
     var body: some View {
         VStack {
+            Toggle(isOn: $shouldShowPrayingEmoji) {
+                Text("Should show praying emoji")
+            }
+            
             Text("Tommy and Gina")
-            Text("🙏")
+            Text(shouldShowPrayingEmoji ? "🙏" : "")
             Image(systemName: "figure.2.and.child.holdinghands")
         }
         .padding()
