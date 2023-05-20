@@ -15,7 +15,9 @@ import Foundation
         postData = downloadedPosts
     }
     
-    //from bard
+
+    /*
+     option 1
     func postRequest<T>(to endpoint: URL, with body: T) async throws -> (Data, URLResponse) where T: Encodable {
         var request = URLRequest(url: endpoint)
         request.httpMethod = "POST"
@@ -26,7 +28,7 @@ import Foundation
         return (data, response)
     }
     
-    /*
+    
      //The example of how it would be used
      let endpoint = URL(string: "https://example.com/api/v1/users")!
      let body = ["name": "John Doe", "email": "johndoe@example.com"]

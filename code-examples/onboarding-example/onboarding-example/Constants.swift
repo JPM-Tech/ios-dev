@@ -8,5 +8,5 @@
 import Foundation
 
 class Constants {
-    static let currentOnboardingVersion = "1.0.0"
+    static let currentOnboardingVersion = "onboardingVersion_1.0.0"
 }
