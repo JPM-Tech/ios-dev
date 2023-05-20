@@ -38,7 +38,7 @@ struct OnboardingView: View {
             .padding(.vertical)
         }
         .onAppear {
-            // this can be uncommented out if we want to remove the old onboarding version from UserDefaults
+            // we can uncommented the next line if we want to remove the old onboarding version from UserDefaults
 //            UserDefaults.standard.removeObject(forKey: "previous_onboarding_version")
         }
     }
