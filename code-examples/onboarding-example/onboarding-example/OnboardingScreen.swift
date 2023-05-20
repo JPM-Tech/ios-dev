@@ -16,7 +16,6 @@ struct OnboardingScreen: View {
                 Image(systemName: item.systemImageName)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .tint(.accentColor)
                     .frame(maxWidth: 200, maxHeight: 200)
                     .padding(.bottom)
                 

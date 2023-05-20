@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct OnboardingItem: Identifiable, Hashable {
+struct OnboardingItem: Identifiable {
     let id = UUID()
     let systemImageName: String
     let title: String
