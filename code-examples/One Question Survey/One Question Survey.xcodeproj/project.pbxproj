@@ -7,26 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		468D86072A4A537E00E45969 /* AnswerFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D86062A4A537E00E45969 /* AnswerFields.swift */; };
+		468D86092A4A594F00E45969 /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D86082A4A594F00E45969 /* Fields.swift */; };
+		46C3E9902A386FAC00002D4E /* ShareFeedbackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3E98F2A386FAC00002D4E /* ShareFeedbackButton.swift */; };
+		46C3E9922A388D1400002D4E /* FillInTheBlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3E9912A388D1400002D4E /* FillInTheBlankView.swift */; };
+		46C3E9982A39420800002D4E /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3E9972A39420800002D4E /* SurveyView.swift */; };
+		46C3E99A2A39FEF100002D4E /* SampleQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3E9992A39FEF100002D4E /* SampleQuestions.swift */; };
+		46C3E99C2A3A011E00002D4E /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3E99B2A3A011E00002D4E /* RatingView.swift */; };
+		46C3E99E2A3A399D00002D4E /* QuestionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3E99D2A3A399D00002D4E /* QuestionType.swift */; };
+		46C3E9A02A3A410D00002D4E /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3E99F2A3A410D00002D4E /* WebService.swift */; };
+		46C3E9A22A3E2DB000002D4E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3E9A12A3E2DB000002D4E /* Record.swift */; };
+		46C3E9A42A3E33B200002D4E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3E9A32A3E33B200002D4E /* Constants.swift */; };
+		46C3E9A62A3E3BFA00002D4E /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3E9A52A3E3BFA00002D4E /* Records.swift */; };
 		46ED7E6F29EFED9B007AE9D2 /* One_Question_SurveyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7E6E29EFED9B007AE9D2 /* One_Question_SurveyApp.swift */; };
 		46ED7E7129EFED9B007AE9D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7E7029EFED9B007AE9D2 /* ContentView.swift */; };
 		46ED7E7329EFED9C007AE9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46ED7E7229EFED9C007AE9D2 /* Assets.xcassets */; };
 		46ED7E7629EFED9C007AE9D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46ED7E7529EFED9C007AE9D2 /* Preview Assets.xcassets */; };
-		46ED7E7D29F067F3007AE9D2 /* SurveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7E7C29F067F3007AE9D2 /* SurveyQuestion.swift */; };
-		46ED7E7F29F068C9007AE9D2 /* SurveyAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7E7E29F068C9007AE9D2 /* SurveyAnswer.swift */; };
+		46ED7E7D29F067F3007AE9D2 /* QuestionFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7E7C29F067F3007AE9D2 /* QuestionFields.swift */; };
 		46ED7E8129F1F79D007AE9D2 /* SurveyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7E8029F1F79D007AE9D2 /* SurveyViewModel.swift */; };
-		46ED7E8329F201D1007AE9D2 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7E8229F201D1007AE9D2 /* SurveyView.swift */; };
+		46ED7E8329F201D1007AE9D2 /* MultipleChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7E8229F201D1007AE9D2 /* MultipleChoiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		468D86062A4A537E00E45969 /* AnswerFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerFields.swift; sourceTree = "<group>"; };
+		468D86082A4A594F00E45969 /* Fields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
+		46C3E98F2A386FAC00002D4E /* ShareFeedbackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareFeedbackButton.swift; sourceTree = "<group>"; };
+		46C3E9912A388D1400002D4E /* FillInTheBlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillInTheBlankView.swift; sourceTree = "<group>"; };
+		46C3E9972A39420800002D4E /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		46C3E9992A39FEF100002D4E /* SampleQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleQuestions.swift; sourceTree = "<group>"; };
+		46C3E99B2A3A011E00002D4E /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		46C3E99D2A3A399D00002D4E /* QuestionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionType.swift; sourceTree = "<group>"; };
+		46C3E99F2A3A410D00002D4E /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		46C3E9A12A3E2DB000002D4E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		46C3E9A32A3E33B200002D4E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		46C3E9A52A3E3BFA00002D4E /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
 		46ED7E6B29EFED9B007AE9D2 /* One Question Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Question Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46ED7E6E29EFED9B007AE9D2 /* One_Question_SurveyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One_Question_SurveyApp.swift; sourceTree = "<group>"; };
 		46ED7E7029EFED9B007AE9D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46ED7E7229EFED9C007AE9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46ED7E7529EFED9C007AE9D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		46ED7E7C29F067F3007AE9D2 /* SurveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestion.swift; sourceTree = "<group>"; };
-		46ED7E7E29F068C9007AE9D2 /* SurveyAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyAnswer.swift; sourceTree = "<group>"; };
+		46ED7E7C29F067F3007AE9D2 /* QuestionFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFields.swift; sourceTree = "<group>"; };
 		46ED7E8029F1F79D007AE9D2 /* SurveyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewModel.swift; sourceTree = "<group>"; };
-		46ED7E8229F201D1007AE9D2 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		46ED7E8229F201D1007AE9D2 /* MultipleChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +62,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4610AEDC2A47671E003A24E8 /* AirTable */ = {
+			isa = PBXGroup;
+			children = (
+				46C3E9A52A3E3BFA00002D4E /* Records.swift */,
+				46C3E9A12A3E2DB000002D4E /* Record.swift */,
+				468D86082A4A594F00E45969 /* Fields.swift */,
+				46ED7E7C29F067F3007AE9D2 /* QuestionFields.swift */,
+				468D86062A4A537E00E45969 /* AnswerFields.swift */,
+			);
+			path = AirTable;
+			sourceTree = "<group>";
+		};
+		46DD91CB2A646B5F009FE6CC /* SurveyQuestionTypes */ = {
+			isa = PBXGroup;
+			children = (
+				46C3E9912A388D1400002D4E /* FillInTheBlankView.swift */,
+				46ED7E8229F201D1007AE9D2 /* MultipleChoiceView.swift */,
+				46C3E99B2A3A011E00002D4E /* RatingView.swift */,
+			);
+			path = SurveyQuestionTypes;
+			sourceTree = "<group>";
+		};
 		46ED7E6229EFED9B007AE9D2 = {
 			isa = PBXGroup;
 			children = (
@@ -59,14 +103,19 @@
 		46ED7E6D29EFED9B007AE9D2 /* One Question Survey */ = {
 			isa = PBXGroup;
 			children = (
+				4610AEDC2A47671E003A24E8 /* AirTable */,
 				46ED7E6E29EFED9B007AE9D2 /* One_Question_SurveyApp.swift */,
 				46ED7E7029EFED9B007AE9D2 /* ContentView.swift */,
 				46ED7E7229EFED9C007AE9D2 /* Assets.xcassets */,
 				46ED7E7429EFED9C007AE9D2 /* Preview Content */,
-				46ED7E7C29F067F3007AE9D2 /* SurveyQuestion.swift */,
-				46ED7E7E29F068C9007AE9D2 /* SurveyAnswer.swift */,
+				46C3E9A32A3E33B200002D4E /* Constants.swift */,
+				46C3E99F2A3A410D00002D4E /* WebService.swift */,
+				46C3E99D2A3A399D00002D4E /* QuestionType.swift */,
+				46C3E9992A39FEF100002D4E /* SampleQuestions.swift */,
 				46ED7E8029F1F79D007AE9D2 /* SurveyViewModel.swift */,
-				46ED7E8229F201D1007AE9D2 /* SurveyView.swift */,
+				46C3E98F2A386FAC00002D4E /* ShareFeedbackButton.swift */,
+				46C3E9972A39420800002D4E /* SurveyView.swift */,
+				46DD91CB2A646B5F009FE6CC /* SurveyQuestionTypes */,
 			);
 			path = "One Question Survey";
 			sourceTree = "<group>";
@@ -149,12 +198,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46C3E9A02A3A410D00002D4E /* WebService.swift in Sources */,
+				46C3E99C2A3A011E00002D4E /* RatingView.swift in Sources */,
+				46C3E9902A386FAC00002D4E /* ShareFeedbackButton.swift in Sources */,
+				468D86072A4A537E00E45969 /* AnswerFields.swift in Sources */,
+				46C3E9922A388D1400002D4E /* FillInTheBlankView.swift in Sources */,
+				46C3E9A22A3E2DB000002D4E /* Record.swift in Sources */,
+				46C3E9A42A3E33B200002D4E /* Constants.swift in Sources */,
 				46ED7E7129EFED9B007AE9D2 /* ContentView.swift in Sources */,
+				46C3E99A2A39FEF100002D4E /* SampleQuestions.swift in Sources */,
 				46ED7E8129F1F79D007AE9D2 /* SurveyViewModel.swift in Sources */,
-				46ED7E8329F201D1007AE9D2 /* SurveyView.swift in Sources */,
-				46ED7E7D29F067F3007AE9D2 /* SurveyQuestion.swift in Sources */,
+				46ED7E8329F201D1007AE9D2 /* MultipleChoiceView.swift in Sources */,
+				46C3E9A62A3E3BFA00002D4E /* Records.swift in Sources */,
+				468D86092A4A594F00E45969 /* Fields.swift in Sources */,
+				46C3E99E2A3A399D00002D4E /* QuestionType.swift in Sources */,
+				46ED7E7D29F067F3007AE9D2 /* QuestionFields.swift in Sources */,
 				46ED7E6F29EFED9B007AE9D2 /* One_Question_SurveyApp.swift in Sources */,
-				46ED7E7F29F068C9007AE9D2 /* SurveyAnswer.swift in Sources */,
+				46C3E9982A39420800002D4E /* SurveyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
